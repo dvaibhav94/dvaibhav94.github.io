@@ -1525,8 +1525,9 @@ h5.tittle{
 }
 .contact-w3-agileits input[type="text"],.contact-w3-agileits input[type="email"], .contact-w3-agileits input[type="tel"] {
     border:2px solid #333;
-    padding: 10px;
+	margin-bottom:20px;
 	outline: none;
+	padding: 10px;
     width: 100%;
 }
 .contact-w3-agileits input[type="email"] {
@@ -1590,6 +1591,10 @@ h5.tittle{
     -ms-transition: 0.5s all;
 }
 
+.contact-w3layouts-right ul{
+    padding-left: 50px;
+}
+
 .contact-w3layouts-right ul li{
 	list-style-type: none;
     margin-bottom: 1em;
@@ -1609,10 +1614,8 @@ h5.tittle{
 .contact-w3layouts-right ul li a:hover{
 	color:#f99104;;
 }
-.contact-w3layouts-right {
-    padding-left: 50px;
-}
-.contact-w3layouts-right h4 {
+
+.contact-w3layouts-right h2 {
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -2083,9 +2086,18 @@ h5.tittle{
     width: 63%;
 }
 .contact-w3layouts-right {
-    padding-left: 16px;
-    float: left;
-    width: 37%;
+    /*float: left;
+	padding-left: 16px;
+    width: 37%;*/
+}
+.contact-w3layouts-right ul{
+    
+	padding-left: 16px;
+  
+}
+.contact-w3layouts-right h2{
+	margin-top:20px;
+	text-align:center;
 }
 .contact-w3-agileits input[type="text"], .contact-w3-agileits input[type="email"] , .contact-w3-agileits input[type="tel"]
 {
@@ -2363,7 +2375,7 @@ h5.tittle{
 .contact-w3layouts-right {
     width: 100%;
 }
-.contact-w3layouts-right h4 {
+.contact-w3layouts-right h2 {
     font-size: 22px;
 }
 }
